@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_cloud_upload"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        android:visible="false"
+        android:title="@string/backup">
+    </item>
+    <item
+        android:id="@+id/signin"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        android:title="@string/sign_in">
+    </item>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#187BCD</color>
+    <color name="colorPrimaryDark">#1167B1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fab_color">#FFFFFF</color>
+    <color name="chip_bg">#FFFFFF</color>
+    <color name="chip_text">#000000</color>
+    <color name="button_color">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue1">#03254C</color>
+    <color name="blue2">#1167B1</color>
+    <color name="blue3">#187BCD</color>
+    <color name="blue4">#2A9DF4</color>
+    <color name="blue5">#D0EFFF</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+</resources>
+
+<!--
+<color name="colorPrimary">#008577</color>
+<color name="colorPrimaryDark">#00574B</color>
+<color name="colorAccent">#D81B60</color>
+ -->

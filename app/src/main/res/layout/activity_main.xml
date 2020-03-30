@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimaryDark"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_activity_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/mainscreen_button1"
+                style="@style/ButtonTheme"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/button1"
+                android:textAllCaps="false"
+                android:onClick="takeImage"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_camera_white"
+                android:drawablePadding="20dp"
+                android:gravity="left|center_vertical"/>
+
+            <Button
+                android:id="@+id/mainscreen_button2"
+                style="@style/ButtonTheme"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/button2"
+                android:textAllCaps="false"
+                android:layout_below="@+id/mainscreen_button1"
+                android:onClick="openGallery"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_photo_library_white"
+                android:drawablePadding="20dp"
+                android:gravity="left|center_vertical" />
+
+            <Button
+                android:id="@+id/mainscreen_button3"
+                style="@style/ButtonTheme"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/mainscreen_button2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:drawableLeft="@drawable/ic_storage_white"
+                android:drawablePadding="20dp"
+                android:gravity="left|center_vertical"
+                android:onClick="savedImages"
+                android:text="@string/button3"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+</LinearLayout>
